@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/api-riky/tree/main/static/css/main.5f5e9c27.css",
+    "main.js": "/api-riky/tree/main/static/js/main.9631d0eb.js",
+    "index.html": "/api-riky/tree/main/index.html",
+    "main.5f5e9c27.css.map": "/api-riky/tree/main/static/css/main.5f5e9c27.css.map",
+    "main.9631d0eb.js.map": "/api-riky/tree/main/static/js/main.9631d0eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f5e9c27.css",
+    "static/js/main.9631d0eb.js"
+  ]
+}
