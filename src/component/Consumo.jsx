@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
+import './consumo.css'
 const Consumo = () => {
   const [personaje, setPersonaje] = useState([])
 
@@ -14,16 +14,27 @@ const Consumo = () => {
   }, [])
 
   return (
-    <div>
+<div >
+    <h1>api riky</h1>
+
+  
+    <input  className='buscador' placeholder='buscar' type="search" name="" id="" />
+
+    <div className='contenedor' >
+
+      <div className='conte'>
+        
+     
       {personaje.map((persona) => (
-        <div key={persona.id}>
-         
-          <h1>{persona.name}</h1>
-          <img src ={persona.image} alt=""/>
-
-
+        <div className='tarjetas' key={persona.id}>
+          <img className='imagenes'  src ={persona.image} alt=""/>
+          <h4 className='nombre-personaje' >{persona.name}</h4>
+        
         </div>
       ))}
+    </div>
+    </div>
+
     </div>
   )
 }
